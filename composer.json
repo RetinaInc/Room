@@ -1,0 +1,20 @@
+{
+    "name": "gabrielsch/room",
+    "description": "A simple utility app for room booking",
+    "authors": [
+        {
+            "name": "Gabriel Schmitt",
+            "email": "gabrielsch@outlook.com"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "dev-master",
+        "zfr/zfr-rest": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable",
+        "phing/phing": "@stable"
+    },
+    "minimum-stability": "dev"
+}
