@@ -17,7 +17,7 @@
     "require-dev": {
         "phpunit/phpunit": "@stable",
         "phing/phing": "@stable",
-	"satooshi/php-coveralls": "~0.6"
+	"satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
         "psr-0": {
