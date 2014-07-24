@@ -13,8 +13,14 @@ class User
      */
     private $id;
 
+    /**
+     * @var string
+     */
     private $name;
 
+    /**
+     * @var string
+     */
     private $email;
 
     /**
@@ -23,14 +29,6 @@ class User
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * @param int $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
     }
 
     /**
