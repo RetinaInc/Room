@@ -8,6 +8,7 @@
         }
     ],
     "require": {
+        "php": ">=5.5",
         "zendframework/zendframework": "dev-master",
         "zfr/zfr-rest": "dev-master",
         "doctrine/doctrine-orm-module": "dev-master"
@@ -15,6 +16,11 @@
     "require-dev": {
         "phpunit/phpunit": "@stable",
         "phing/phing": "@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "Domain\\": "module/Domain/src/"
+        }
     },
     "minimum-stability": "dev"
 }
