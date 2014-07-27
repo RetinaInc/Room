@@ -1,13 +1,12 @@
 <?php
+
+namespace Room\Domain\Entity;
+
 /**
  * @author Gabriel Schmitt <gabrielsch@outlook.com>
  */
-
-namespace Domain\Entity;
-
 class User
 {
-
     /**
      * @var int
      */

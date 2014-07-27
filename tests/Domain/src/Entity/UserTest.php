@@ -1,10 +1,11 @@
 <?php
 
-namespace Domain\Entity;
+namespace Room\Domain\Entity;
 
-class UserTest extends \PHPUnit_Framework_TestCase
+use PHPUnit_Framework_TestCase;
+
+class UserTest extends PHPUnit_Framework_TestCase
 {
-
     public function testUserCanBeInstantiated()
     {
         $this->assertInstanceOf(User::class, new User());
