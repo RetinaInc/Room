@@ -9,20 +9,20 @@
     ],
     "require": {
         "php": ">=5.5",
-        "zendframework/zendframework": "dev-master",
-        "zfr/zfr-rest": "dev-master",
-        "doctrine/doctrine-orm-module": "dev-master",
-	"doctrine/doctrine-module": "dev-master"
+        "zendframework/zendframework": "~2.3",
+        "zfr/zfr-rest": "~0.3",
+        "doctrine/doctrine-orm-module": "~0.8",
+        "doctrine/doctrine-module": "~0.8"
     },
     "require-dev": {
-        "phpunit/phpunit": "@stable",
-        "phing/phing": "@stable",
-	"satooshi/php-coveralls": "dev-master"
+        "phpunit/phpunit": "~4.1",
+        "phing/phing": "~2.8",
+        "satooshi/php-coveralls": "@stable"
     },
     "autoload": {
-        "psr-0": {
-            "Domain\\": "module/Domain/src/"
+        "psr-4": {
+            "Room\\Domain\\": "module/Domain/src/"
         }
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "stable"
 }
