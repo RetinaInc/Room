@@ -1,7 +1,7 @@
 <?php
 return [
     'modules' => [
-        'Domain'
+        'Room\Domain'
     ],
     'config_glob_paths' => [
         'config/autoload/{,*.}{global,local}.php'

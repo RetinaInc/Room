@@ -23,6 +23,5 @@
         "psr-4": {
             "Room\\Domain\\": "module/Domain/src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
